@@ -81,17 +81,20 @@
 
 
 
-<meta name="description" content="Do something you like!">
+<meta name="description" content="本文不涉及到太具体的安装方法粗略总结一下： 1.hexo-admin的作用&amp;ensp; &amp;emsp; 个人而言，还没有体会出太大的作用。&amp;emsp; &amp;emsp;1.hexo插入图片时，在创建md文件的同时需要创建一个同名文件夹，用来存储图片。而admin后台中的post新建md文件时并没有创建该文件夹，这导致我们需要再在source/_posts下创建同名文件夹，很显然这很多余。当然应该可以通过">
 <meta property="og:type" content="article">
 <meta property="og:title" content="创建hexo博客的一些小点">
 <meta property="og:url" content="http://yoursite.com/2018/08/22/创建hexo博客的一些小点/index.html">
 <meta property="og:site_name" content="BillionsJordan">
-<meta property="og:description" content="Do something you like!">
+<meta property="og:description" content="本文不涉及到太具体的安装方法粗略总结一下： 1.hexo-admin的作用&amp;ensp; &amp;emsp; 个人而言，还没有体会出太大的作用。&amp;emsp; &amp;emsp;1.hexo插入图片时，在创建md文件的同时需要创建一个同名文件夹，用来存储图片。而admin后台中的post新建md文件时并没有创建该文件夹，这导致我们需要再在source/_posts下创建同名文件夹，很显然这很多余。当然应该可以通过">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-22T02:45:50.912Z">
+<meta property="og:image" content="http://yoursite.com/2018/08/22/创建hexo博客的一些小点/hexo评论.JPG">
+<meta property="og:image" content="http://yoursite.com/2018/08/22/创建hexo博客的一些小点/双栏示意图.JPG">
+<meta property="og:updated_time" content="2018-08-24T15:22:34.691Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="创建hexo博客的一些小点">
-<meta name="twitter:description" content="Do something you like!">
+<meta name="twitter:description" content="本文不涉及到太具体的安装方法粗略总结一下： 1.hexo-admin的作用&amp;ensp; &amp;emsp; 个人而言，还没有体会出太大的作用。&amp;emsp; &amp;emsp;1.hexo插入图片时，在创建md文件的同时需要创建一个同名文件夹，用来存储图片。而admin后台中的post新建md文件时并没有创建该文件夹，这导致我们需要再在source/_posts下创建同名文件夹，很显然这很多余。当然应该可以通过">
+<meta name="twitter:image" content="http://yoursite.com/2018/08/22/创建hexo博客的一些小点/hexo评论.JPG">
 
 
 
@@ -334,7 +337,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  0
+                  551
                 </span>
               
 
@@ -350,7 +353,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  2
                 </span>
               
             </div>
@@ -371,7 +374,12 @@
       
 
       
-        
+        <p>本文不涉及到太具体的安装方法<br>粗略总结一下：</p>
+<h4 id="1-hexo-admin的作用"><a href="#1-hexo-admin的作用" class="headerlink" title="1.hexo-admin的作用"></a>1.hexo-admin的作用</h4><p>&ensp; &emsp; 个人而言，还没有体会出太大的作用。<br>&emsp; &emsp;1.hexo插入图片时，在创建md文件的同时需要创建一个同名文件夹，用来存储图片。而admin后台中的post新建md文件时并没有创建该文件夹，这导致我们需要再在<strong>source/_posts</strong>下创建同名文件夹，很显然这很多余。当然应该可以通过修改post按钮对应命令的方法进行统合，但我不熟悉这里，所以没有采用。<br>&emsp; &emsp;2.deploy文件夹只限于发布部署命令（<strong>hexo d -g</strong>），这显然太过大材小用。<br>&emsp; &emsp;3.在admin的实时编辑中，缺乏实时性，不能“所见即所得”，需要刷新才能看见排版，非常麻烦。<br>&ensp; &emsp;针对上面的问题，我的方法如下：<br>&emsp; &emsp;1.<a href="https://blog.csdn.net/qq_37497322/article/details/80628713" target="_blank" rel="noopener">如何在hexo博客中插入图片</a>（转载）。简单来说即通过<strong>hexo n “xxx”</strong>命令在创建md文件的同时自动创建同名文件夹。<br>&emsp; &emsp;2.在hexo文件夹下写一个内嵌该命令的bat文件，发布博客时，点击该bat文件即可。<br>&emsp; &emsp;3.采用马克飞象。</p>
+<h4 id="2-添加评论功能"><a href="#2-添加评论功能" class="headerlink" title="2.添加评论功能"></a>2.添加评论功能</h4><p>&ensp; &emsp; 基本步骤如<a href="https://blog.csdn.net/ganzhilin520/article/details/79048010" target="_blank" rel="noopener">hexo添加评论功能</a>（转载）所示，但有几点要注意。<br>&emsp; &emsp;1.这个链接的前提是next主题，具体安装步骤如<a href="https://blog.csdn.net/zuoziji416/article/details/53204478" target="_blank" rel="noopener">Hexo的Next主题配置</a>，需要注意，下载代码后将文件夹重命名为next，放在theme文件夹下；发布部署后可能要过一段时间自己的主页才会更新主题，需要耐心等待下。<br>&emsp; &emsp;2.在定位livere_uid 字段时，将前面的#号去掉，同时重新生成部署。最后效果如下：<br><img src="/2018/08/22/创建hexo博客的一些小点/./hexo评论.JPG" alt="hexo评论"></p>
+<h4 id="3-主题栏设置"><a href="#3-主题栏设置" class="headerlink" title="3.主题栏设置"></a>3.主题栏设置</h4><p>&ensp; &emsp;找到<strong>themes/next/_config.yml</strong>，搜索s<strong>scheme</strong>，将默认的Muse注释掉，将Pisces前面的#号去掉，表示界面弄为双栏模式；再搜索<strong>sidebar</strong>，其中position对应的值为主栏的位置。我的position设置为right，效果如下：<br><img src="/2018/08/22/创建hexo博客的一些小点/./双栏示意图.JPG" alt="双栏示意图"></p>
+<h4 id="4-打赏、搜索、头像、昵称、签名设置"><a href="#4-打赏、搜索、头像、昵称、签名设置" class="headerlink" title="4.打赏、搜索、头像、昵称、签名设置"></a>4.打赏、搜索、头像、昵称、签名设置</h4><p>&ensp; &emsp;在<a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">官方文档</a>中均有详细描述，照着做就好。</p>
+
       
     </div>
     
@@ -539,8 +547,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -593,6 +610,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-hexo-admin的作用"><span class="nav-number">1.</span> <span class="nav-text">1.hexo-admin的作用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-添加评论功能"><span class="nav-number">2.</span> <span class="nav-text">2.添加评论功能</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-主题栏设置"><span class="nav-number">3.</span> <span class="nav-text">3.主题栏设置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-打赏、搜索、头像、昵称、签名设置"><span class="nav-number">4.</span> <span class="nav-text">4.打赏、搜索、头像、昵称、签名设置</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
