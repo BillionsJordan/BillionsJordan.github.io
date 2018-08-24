@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[创建hexo博客的一些小点]]></title>
+    <url>%2F2018%2F08%2F22%2F%E5%88%9B%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B0%8F%E7%82%B9%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[平板]]></title>
+    <url>%2F2018%2F08%2F22%2F%E5%B9%B3%E6%9D%BF%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[插入图片]]></title>
+    <url>%2F2018%2F08%2F22%2F%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%2F</url>
+    <content type="text"><![CDATA[试试能不能成功插入图片]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[my name is dante]]></title>
+    <url>%2F2018%2F08%2F21%2Fmy-name-is-dante%2F</url>
+    <content type="text"><![CDATA[hello my frd但是没有人能做到这一点我的天]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F08%2F20%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[nmsl]]></title>
+    <url>%2F2018%2F08%2F19%2Fnmsl%2F</url>
+    <content type="text"><![CDATA[i love you!welcome to baidu]]></content>
+  </entry>
+</search>
